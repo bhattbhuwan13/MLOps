@@ -1,0 +1,8 @@
+preferences:
+  user: raviraja
+  trait: hello
+
+db:
+  driver: mysql
+  user: omry
+  pass: secret

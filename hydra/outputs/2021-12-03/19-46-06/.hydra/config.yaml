@@ -1,0 +1,7 @@
+pref:
+  user: raviraja
+  trait: i_like_stars
+db:
+  driver: mysql
+  user: omry
+  pass: secret
