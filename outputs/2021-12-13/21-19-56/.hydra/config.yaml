@@ -1,11 +1,9 @@
-defaults: #defaults is the reserved word in yaml
-  - model: default
-    # folder_name: file_name
-
+model:
+  name: google/bert_uncased_L-2_H-128_A-2
+  tokenizer: google/bert_uncased_L-2_H-128_A-2
 processing:
   batch_size: 64
   max_length: 128
-
 training:
   max_epochs: 1
   log_every_n_steps: 10
